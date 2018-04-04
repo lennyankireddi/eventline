@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Timeline</title>
+        <meta charset='utf-8'/>
+        <link rel='stylesheet' href='./css/eventline.css' />
+        <link rel='stylesheet' href='./node_modules/font-awesome/css/font-awesome.min.css' />
+    </head>
+    <body>
+        <div id="timelineContainer" class="timeline-container">
+            <div class="timeline-nav nav-past" id="navPast"><span class='fa fa-angle-left'></span></div>
+            <div id="timelineWrapper">
+                <div id="timeline">
+                    <ol id ="ticks">
+                    </ol>
+                    <ol id="eventList">
+                    </ol>
+                </div>
+            </div>
+            <div class="timeline-nav nav-future" id="navFuture"><span class='fa fa-angle-right'></span></div>
+            <div id="eventDetailContainer" class="event-detail-container">
+                <div class="selected-event">
+                    <div class="event-title"></div>
+                    <div class="event-date-range">
+                        <div class="event-start-date"></div>
+                        <div class="event-separator">&nbsp;-&nbsp;</div>
+                        <div class="event-end-date"></div>
+                    </div>
+                    <div class="event-notes"></div>
+                </div>
+            </div>
+        </div>
+        
+        <script src='./node_modules/jquery/dist/jquery.min.js'></script>
+        <script src='./node_modules/moment/min/moment.min.js'></script>
+        <script src='./js/eventline.js'></script>
+    </body>
+</html>

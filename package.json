@@ -1,0 +1,32 @@
+{
+  "name": "eventline",
+  "version": "1.0.0",
+  "description": "Horizontal event timeline using jQuery and CSS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lennyankireddi/eventline.git"
+  },
+  "keywords": [
+    "Event",
+    "Timeline",
+    "Horizontal",
+    "jQuery",
+    "CSS",
+    "Animation"
+  ],
+  "author": "Lenny Ankireddi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lennyankireddi/eventline/issues"
+  },
+  "homepage": "https://github.com/lennyankireddi/eventline#readme",
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "moment": "^2.22.0"
+  }
+}
